@@ -37,16 +37,12 @@ const App = () => {
       method: "DELETE",
     });
 
-    console.log({ id });
-
     setTodos((prevState) => prevState.filter((state) => state.id !== id));
   };
 
   useEffect(() => {
     fetchTodos();
   }, []);
-
-  console.log(todos);
 
   return (
     <Layout>
