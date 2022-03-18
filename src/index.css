@@ -1,10 +1,11 @@
 liferay-devcon main {
   background-color: #fafafa;
   height: 100vh;
+  color: var(--color-neutral-1);
 }
 
 liferay-devcon header {
-  background-color: #30313f;
+  background-color: var(--color-brand-primary-darken-4);
   height: 300px;
 }
 
