@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+liferay-devcon main {
+  background-color: #fafafa;
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+liferay-devcon header {
+  background-color: #30313f;
+  height: 300px;
+}
+
+liferay-devcon .todos {
+  -moz-box-shadow: 0 10px 6px -6px #30313f;
+  -webkit-box-shadow: 0 10px 6px -6px #30313f;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 10px 6px -6px #30313f;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+liferay-devcon .todos .todo-list {
+  margin-top: 20px;
+}
+
+liferay-devcon .todos .todo-list div {
+  background-color: #dadada;
+  border-radius: 2px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+liferay-devcon nav {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+liferay-devcon .brand {
+  color: white;
+  font-size: 24px;
+}
+
+liferay-devcon .cards {
+  margin-top: -180px;
+  display: flex;
+  flex-direction: row;
 }
